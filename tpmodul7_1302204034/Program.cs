@@ -11,7 +11,7 @@ namespace tpmodul7_1302204034
 
             Console.WriteLine($"Berapakah suhu badan anda saat ini ? Dalam nilai {config.CONFIG1}");
             double input1 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Berapa hari yang lalu (perkiraan) anda terakhir memiliki gejala deman ?");
+            Console.WriteLine("Berapa hari yang lalu (perkiraan) anda terakhir memiliki gejala demam ?");
             int input2 = Convert.ToInt32(Console.ReadLine());
 
             bool kondisi1;
